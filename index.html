@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!--doctype deklarerar skriptspråket på sidan-->
+<html lang="sv.se">
+
+    <!--git remote add origin https://github.com/adam1pplayer/html-css-testsida.git></git>
+    git branch -M main
+    git push -u origin main-->
+
+    
+
+<!--
+    Anteckningar:
+.min i länk betyder att länkfilen är minimerad till en endaste OLÄSLIG rad, MEN filen läses in 
+snabbare då endast en rad behöver läsas in
+HTML & CSS läses in rad efter rad(och skriver över befintlig styling)!
+-->
+
+
+
+<head><!--Blocket används för att deklarera vad webbläsaren finns/behövs på webbsidan-->
+    <meta charset="utf-8"> <!--definerar att sidan läses på Unicode 8-->
+    <title>Min webbbbbbsida</title>
+    <meta name="keywords" content="webbsida, adam, vit, internet"> <!--beskrivning av min hemsida i keywords-->
+    <meta name="author" content="Adam Ågren">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+    <meta http-equiv="refresheet" content="60"> <!--Hur ofta webbsidan refreshar automatiskt-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Refrerar till en CDN(content delivery network över nätet till ett fördefinerat stylesheet)-->
+    <link rel="stylesheet" href="css/bootstrap.css"> <!--Länk till Bootstrap-library: Bootstrap is a 
+        free and open-source CSS framework directed at responsive, mobile-first front-end 
+        web development. It contains HTML, CSS and JavaScript-based design templates for typography, 
+        forms, buttons, navigation, and other interface components.-->
+    <link rel="stylesheet" href="/css/style.css"> <!--Länkar html-dokumentet till stylesheetet
+    Detta(mitt) stylesheet skriver över förgående definerad kod
+    -->
+    <script defef src="https://kit.fontawesome.com/ea9af929af.js" crossorigin="anonymous"></script>
+    <!--^länkar skriptet fontawesome till sidan och använder "deter" för att köra sist-->
+</head>
+
+
+
+<body><!--Vad som visas på sidan(det grafiska)-->
+
+<h1>Denna sidan är till för att hjälpa dig!</h1>
+<h2> Rubrik 2 xdxdxd </h2>
+<p>hej hej kingen visst är det en fin dag</p> <!--Paragraf är förformatterat med mellanrum mm.-->
+&#88 <!--unicode för X-->
+coolt
+<img src="https://www.ilovebicycling.com/wp-content/uploads/2018/02/bike15.jpg" alt="Crazy fast cyclist" height="333" width="500"> <!--Definerar en bild-->
+<button type="button" autofocus> Klicka på mig </button>
+<i class="fa-solid fa-mug-hot"></i> <!--Länk till kaffemug-->
+
+<label for="klädmärke"><p>Klädmärke:</p></label>
+
+<select name="Klädmärke" id="Klädmärke" size="1">
+    <option value="nike">Nike</option>
+    <option value="adidas">Adidas</option>
+    <option value="ralph lauren">Ralph Lauren</option>
+</select> <!--JAVASCRIPT: Skapar en drop down lista(defines a client side list)-->
+<!-- block elements 
+<ul>: Osorterad punktlista
+<table> Table
+<span>  Defines section in document
+<select> Defines drop down list
+<p> paragraf, text formaterad med mellanrum
+-->
+
+
+<!-- inline elements -->
+<body>
+
+
+
+</html>
