@@ -1,21 +1,21 @@
 h1 {
-    color: #1100ff;
+    color: #ff9200;
 }
 
 
 
-h2{
-    color: indigo;
+h5{
+    color: goldenrod;
 }
 
 
 
 p{
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 80px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    color: green
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(0, 0, 140)
     }
 
 
